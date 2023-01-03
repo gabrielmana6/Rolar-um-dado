@@ -1,0 +1,51 @@
+#rolar_dado {
+    text-align: center;
+    height: 23em;
+}
+
+button {
+    margin: 3px;
+    font-size: 1.5em;
+    border: 1px solid black;
+    border-radius: .5em;
+    background-color: whitesmoke;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover {
+    font-size: 1.7em;
+}
+
+button:active {
+    background-color: greenyellow;
+    transition: none;
+}
+
+#btn_historico {
+    height: 2em;
+}
+
+img {
+    width: 20em;
+    height: 20em;
+    display: block;
+    margin: auto;
+}
+
+#historico {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.resultado {
+    margin-top: 0.5em;
+    border-top: 1px solid black;
+    text-align: center;
+}
+
+.resultado > img {
+    margin: .3em;
+    width: 10em;
+    height: 10em;
+}
